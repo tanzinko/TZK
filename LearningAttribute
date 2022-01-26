@@ -1,0 +1,19 @@
+   <h2>welcom to my github</h2> 
+   <a href="https://github.com/tanzinko/TZK/blob/main/FW.DH">
+        <i>please check my testing github resporitory</i>
+    </a>
+<h3> Peace Myanamr!</h3>
+<h4>Images will show</h4>
+<img src="./source/flowermyanmar.jpg" width="300" alt="Flower Myanmar ( with JPG)">
+<img src="./source/saung.PNG" width="300" alt="saung of 2021 (with PNG)">
+<img src="./source/sardu 300.jpeg" width="300" alt="300 sardu (with jpeg) ">
+<img src="./source/peace.svg" width="300" alt="peace (with svg)">
+ <h4>video will show</h4>
+<video src="./videotest/iv.mp4" width="500" controls></video>
+<video src="./videotest/threefingers3.webm" width="300" controls></video>
+<video src="./videotest/threefingers4.Ogg" width="300" controls></video>
+<audio src="./source/ကမ္ဘာမကြေငါတို့တေး.mp3" controls></audio>
+<audio controls>
+    <source src="./source/noky.wav">
+</audio>
+<embed src="https://tanzinko.github.io/tzk_portfolio/" width="600" height="500" type="">
