@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=	, initial-scale=1.0">
+    <title>ententisNemoji</title>
+</head>
+<body>
+   <H1>&lt;Testing entities by <b>entity name</b> &gt;</H1>
+    &copy; to the sirSLH with 	w3school&reg;
+    O&#771;la&#771;
+    <a href="https://www.w3schools.com/html/html_entities.asp">go to w3sch entities</a>
+    <br>
+    <h1>&#8721; Testing symbols by number and / entity &sum;</h1>
+    <p>&#169; / &copy; to &#9829;&trade; </p>
+    <a href="https://www.w3schools.com/html/html_symbols.asp">go to w3sch symbols</a>
+    <br>
+    <h1> &#128073;&#127995; Testing &#69;moji &#128072;&#127999;</h1>
+    today weather is like 127774(dec) &#127774; and 1F31E(hex)&#x1F31E;
+    <a href="https://www.w3schools.com/charsets/ref_emoji.asp">go to w3sch emoji ref_emoji</a>
+    <br>
+    <h1> &#187; Testing &#67;harse&#116; &#171; </h1>
+    is work or not ? the euro sign >  &#128;
+    <p>&#212;&#108;&#227; "// ~~" &#189; or &#188; </p>
+    <a href="https://www.w3schools.com/html/html_charset.asp">go to w3sch charset</a>
+
+    <h1>URL Encode (TEST AT w3sch) </h1>
+    <p>Hello%20G%C3%BCnter</p>
+    <a href="https://www.w3schools.com/tags/ref_urlencode.asp"> go to w3sch url_encode</a>
+
+</body>
+</html>
