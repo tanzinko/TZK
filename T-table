@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Tabel</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Spirit</th>
+                <th>Origin</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>TJK</td>
+                <td>Water</td>
+                <td rowspan="2"> Sun</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>NZK</td>
+                <td>Flower</td>
+            </tr>
+            <tr>
+                <td colspan="2">DS Crop</td>
+                <td colspan="2">Nature's Earth</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total </th>
+                <th colspan="2">Infinity</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
