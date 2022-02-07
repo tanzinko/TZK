@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1, h2 {
+  text-align: center;
+  color: red;
+}
+
+p.center {
+    text-align: center;
+    color: rgb(162, 0, 255);
+  }
+
+  p.large {
+    font-size: 200%;
+  }
+  .rcenter {
+  text-align: center;
+  color: rgb(251, 255, 0);
+}
+#para1 {
+  text-align: center;
+  color: rgb(33, 9, 172);
+}
+h5 {
+  text-align: center;
+  color: rgb(185, 14, 185);
+} 
+  </style>
+  </head>
+  <body>
+  
+  <h1>this is Group Selector. h1 pr </h1>
+  <h2>yes, Group Selector. h2 pr </h2>
+  <p>This paragraph is not included. its had to be as a break for another selector type becoz /style/head/body is not allowed in repeated and middled.</p>
+
+  <p class="center">This paragraph will be red and center-aligned. as one of the multiple selected element class type</p>
+  <p class="center large">This paragraph will be red, center-aligned, and in a large font-size. as one of the multiple selected element class type</p> 
+  <h3 class="center">This heading will not be affected. becoz h1 not classed and i put it as a break for another selector type.</h3>
+
+  <h1 class="rcenter">Red and center-aligned heading</h1>
+  <p class="rcenter">Red and center-aligned paragraph.</p>
+  <h4> tis is a break of .class selector of css testing</h4>
+
+  <p id="para1">Hello World! its id selector </p>
+  <p>This paragraph is not affected by the style. as a break of #id selector of css testing</p>
+
+  <h5>Every paragraph will be affected by the style.</h5>
+  <h5>Me too loz!</h5>
+  <h5>And me!</h5>
+  <h6> ဒါကတော့ element selector စမ်းသပ်တာ တစ်ဖျက်ရပ်ပါမယ်</h6>
+
+
+</body>
+</html>
