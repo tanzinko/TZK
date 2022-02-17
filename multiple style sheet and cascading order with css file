@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to (mulitple sheets and cascading orders)</title>
+    <link rel="stylesheet" href="multiplestylesheetsandcascadingordertest.css">
+    <style>
+        h3 {
+            /* tis is 3rd step to take order on same mission (h3) */
+            color: aqua;
+            font-size: 50px;
+        }
+        ul.listgrouptesting{
+            list-style: none;
+        }
+    ul#textdecortesting li a {
+        text-decoration: none;
+    }
+    /* above id test take action only if "li a" contained  */
+
+
+    .listgrouptesting{
+        list-style: square;
+    }
+    /* above class test doesnt take action if not ul class (ul.listgrouptesitng) is contained ( to be taken as step order ) */
+
+
+    #testimportant{
+        list-style: square;
+    }
+    /* above id test take action although ul.listgrouptesting defined as "none" , its becoz the id action is prior than class action */
+
+    .listgrouptesting{
+        list-style:upper-alpha !important;
+    }
+    /* as u can see , the "!important" define the first priority although id(#testimportant)*/
+    </style>
+</head>
+<body>
+    <h3 id="Ordertestid" class="Ordertestclass" style="color:blueviolet" style="font-size: ;" > Learning about orders of css works </h3>
+    <!-- tis above is 4th step to take order on same mission (h3) but without fontsize order -->
+    <ul id="testimportant" class="listgrouptesting">
+        <li><a href="G">GOOGLE</a></li>
+        <li><a href="G">GITHUB</a></li>
+        <li><a href="G">TWITTER</a></li>
+    </ul>
+
+    <UL id="textdecortesting">
+        <LI><a href="#">GOOGLE</a></LI>
+        <LI><a href="#">GITHUB</a></LI>
+        <LI><a href="#">TWITTER</a></LI>
+    </UL>
+</body>
+</html>
