@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert CSS</title>
+    <link rel="stylesheet" type="text/css" href="./hcolourT.css">
+    <style>
+        .testingclass{
+            color: blueviolet;
+        }
+        #T-id{
+            color: red;
+        }
+        h4 {
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <p class="testingclass">This is External CSS that inserted by testing p.class</p>
+    <p>this is with no class of p. </p>
+     <h1 id="T-id" > This is internal CSS by id</h1>
+     <h4 class="testingclass">this is multiple testing</h4>
+     <h4>this is multiple testing too</h4>
+     <strong class="testingclass"> Above is h1 and this is strong by testing p.class  </strong>
+
+     <H4 id="T-id" class="testingclass" style="color: aqua;"> this is inline css and testing whether id and class is taking effect or not.(its not and not needed naw)</H4>
+     <!-- actually ,the above one should be like ~~ <H4 style="color: aqua;"> this is inline css and testing whether id and class is taking effect or not.</H4> -->
+</body>
+</html>
